@@ -20,7 +20,8 @@ public class TwitterToKafkaServiceApplication implements CommandLineRunner {
     private final TwitterToKafkaServiceConfigData twitterToKafkaServiceConfigData;
     private final StreamRunner streamRunner;
 
-    public TwitterToKafkaServiceApplication(TwitterToKafkaServiceConfigData configData, StreamRunner streamRunner) {
+    public TwitterToKafkaServiceApplication(TwitterToKafkaServiceConfigData configData,
+                                            StreamRunner streamRunner) {
         this.twitterToKafkaServiceConfigData = configData;
         this.streamRunner = streamRunner;
     }
